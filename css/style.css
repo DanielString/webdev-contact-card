@@ -1,6 +1,7 @@
 @import url(reset.css);
 
 .container {
+  margin: auto auto;
   width: 70%;
   height: 50%;
   background: url(../images/Vintage-Classical-Sheet-Music-4-Preview-683x1024.jpg);
@@ -23,12 +24,37 @@ main {
   border-radius: 40%;
 }
 
-h1, h2, h3, h4 {
+.name {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
   color: ivory;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 2px 5px black;
+  align-items: center;
+  margin-top: -20px;
   border: 2px solid black;
-  border-radius: 2em;
-  padding: 3px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
+
+.coname {
+  margin: 10px auto;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  font-size: .5em;
+  color: ivory;
+  text-shadow: 2px 2px 5px black;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+.slogan {
+  text-align: center;
+}
+
+@media (mind-width: 500px)
