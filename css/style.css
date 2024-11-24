@@ -57,4 +57,40 @@ main {
   text-align: center;
 }
 
-@media (mind-width: 500px)
+@media (min-width: 500px) {
+  .wider {
+    display: flex;
+    flex-flow: row;
+  }
+}
+
+@media (min-width: 800px) {
+  .card {
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+  }
+  .profile-pic {
+    width: 30%;
+  }
+  .name {
+    justify-content: center;
+    text-align: center; 
+    padding: 5px; 
+    margin: auto;
+  }
+  .number {
+    font-size: .3em;
+  }
+  .coname {
+    justify-content: center;
+    text-align: center; 
+    padding: 5px; 
+    margin: auto; 
+  }
+  .container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+  }
+}
