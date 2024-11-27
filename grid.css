@@ -22,13 +22,13 @@ main {
 .name {
   margin: 0 auto;
   display: grid;
-  color: ivory;
-  text-shadow: 2px 2px 5px black;
+  color: black;
+  /* text-shadow: 2px 2px 5px black; */
   align-items: center;
-  margin-top: -20px;
-  border: 2px solid black;
+  /* margin-top: -20px; */
+  /* border: 2px solid black; */
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   padding: 10px;
   text-align: center;
 }
@@ -37,11 +37,11 @@ main {
   margin: 10px auto;
   display: grid;
   font-size: 1em;
-  color: ivory;
-  text-shadow: 2px 2px 5px black;
-  border: 2px solid black;
+  color: black;
+  /* text-shadow: 2px 2px 5px black; */
+  /* border: 2px solid black; */
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   padding: 5px;
   text-align: center;
 }
