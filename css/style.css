@@ -30,12 +30,13 @@ main {
   flex-flow: column;
   flex-wrap: wrap;
   color: ivory;
+  font-weight: bold;
   text-shadow: 2px 2px 5px black;
   align-items: center;
   margin-top: -20px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   padding: 10px;
 }
 
@@ -44,13 +45,14 @@ main {
   display: flex;
   flex-flow: column;
   flex-wrap: wrap;
-  font-size: .5em;
+  font-size: 1em;
+  font-weight: bold;
   color: ivory;
   text-shadow: 2px 2px 5px black;
   align-items: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   padding: 5px;
 }
 .slogan {
@@ -61,6 +63,7 @@ main {
   .wider {
     display: flex;
     flex-flow: row;
+    text-align: center;
   }
 }
 
@@ -80,7 +83,7 @@ main {
     margin: auto;
   }
   .number {
-    font-size: .3em;
+    font-size: 0.8em;
   }
   .coname {
     justify-content: center;
