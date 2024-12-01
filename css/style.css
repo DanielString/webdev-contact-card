@@ -1,14 +1,18 @@
 @import url(reset.css);
 
+body {
+  display: flex;
+}
 .container {
-  margin: auto auto;
+  margin: auto;
+  display: flex;
   width: 70%;
   height: 50%;
   background: url(../images/Vintage-Classical-Sheet-Music-4-Preview-683x1024.jpg);
   background-size: cover;
 }
 main {
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -38,6 +42,19 @@ main {
   border-radius: 20px;
   /* background-color: rgba(0, 0, 0, 0.5); */
   padding: 10px;
+}
+h1 {
+  font-size: 2em;
+  line-height: 1.3em;
+  text-align: center;
+}
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+.company, .slogan {
+  font-weight: bolder;
+  font-size: 1.2em;
 }
 
 .coname {

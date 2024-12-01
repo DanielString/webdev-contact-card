@@ -1,9 +1,17 @@
 @import url(reset.css);
-
+html, body {
+  height: 100%;
+  display: grid;
+}
+.card {
+  margin: auto;
+}
 .container {
+  height: 100%;
+  display: grid;
   margin: auto auto;
   width: 70%;
-  height: 50%;
+  height: 60%;
   background-color: beige;
 }
 main {
@@ -47,6 +55,20 @@ main {
 }
 .slogan {
   text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1em;
+  margin-top: -10px;
+}
+.number {
+  font-weight: bold;
+}
+.company, .slogan {
+  font-weight: bolder;
 }
 
 @media (min-width: 500px) {
