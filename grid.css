@@ -7,11 +7,10 @@ html, body {
   margin: auto;
 }
 .container {
-  height: 100%;
   display: grid;
   margin: auto auto;
   width: 70%;
-  height: 60%;
+  height: auto;
   background-color: beige;
 }
 main {
